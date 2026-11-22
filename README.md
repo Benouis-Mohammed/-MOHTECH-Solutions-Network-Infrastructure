@@ -95,32 +95,23 @@ The following screenshot demonstrates successful DHCP address allocation and con
 - **DHCP:** Hosts successfully obtained IP addresses from the DHCP server running on R1.
 - **Connectivity:** Successful ping tests confirmed network reachability from the hosts.
 
-## Project Files
+## Device Configurations
 
-| Directory | Contents |
-|---|---|
-| `Lab/` | EVE-NG lab file |
-| `Configurations/` | Running configurations for all network devices |
-| `Documentation/` | Network documentation and addressing plan |
-| `Verification/` | Command outputs and test results |
+- [R1 Configuration](R1.txt)
+- [DSW1 Configuration](DSW1.txt)
+- [DSW2 Configuration](DSW2.txt)
+- [ASW1 Configuration](ASW1.txt)
+- [ASW2 Configuration](ASW2.txt)
 
-### Device Configurations
+## Network Documentation
 
-- [R1 Configuration](Configurations/R1.txt)
-- [DSW1 Configuration](Configurations/DSW1.txt)
-- [DSW2 Configuration](Configurations/DSW2.txt)
-- [ASW1 Configuration](Configurations/ASW1.txt)
-- [ASW2 Configuration](Configurations/ASW2.txt)
+- [Network Documentation & IP Addressing Plan](MohTechSolutions_Network_Documentation-v8.xlsx)
 
-### Documentation
+## EVE-NG Lab
 
-- [IP Addressing Plan](Documentation/IP-Addressing-Plan.xlsx)
+- [Download EVE-NG Lab Export](%5FExports_unetlab_export-20261122-185541.zip)
 
-## Lab Environment
-
-The project was implemented in EVE-NG using virtual Cisco network devices.
-
-The lab file is provided for anyone who wants to explore the topology and configurations. Compatible device images are required to run the lab.
+The exported lab is provided for anyone who wants to explore the topology and configurations. Compatible device images are required to run the lab.
 
 ---
 
